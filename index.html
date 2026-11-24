@@ -25,6 +25,7 @@ a{color:inherit;text-decoration:none}.mono{font-family:'DM Mono',monospace}
 .strides span{color:var(--cyan)}.year{font:600 clamp(18px,3vw,27px) 'DM Mono';letter-spacing:.42em;color:#a9c2e2;margin:12px 0 24px}
 .event-name{display:inline-flex;align-items:center;gap:13px;border:1px solid #4de7ff66;background:#0b1c30b8;padding:12px 22px;font:700 clamp(17px,3vw,25px) 'Barlow Condensed';letter-spacing:.16em;text-transform:uppercase;box-shadow:0 0 30px #43e8ff12}
 .event-name:before,.event-name:after{content:"";width:20px;height:1px;background:var(--cyan)}
+.event-poster{display:block;width:min(100%,760px);height:auto;margin:20px auto 0;border-radius:4px;box-shadow:0 18px 50px #0008}
 .hero-desc{color:var(--muted);max-width:620px;margin:24px auto 0;font-size:14px;line-height:1.8}
 .scroll-cue{font:10px 'DM Mono';letter-spacing:.2em;color:#6f829e;margin-top:34px}
 .section{max-width:1200px;margin:auto;padding:20px 26px 95px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px;padding-bottom:18px;border-bottom:1px solid var(--line)}
@@ -41,7 +42,7 @@ a{color:inherit;text-decoration:none}.mono{font-family:'DM Mono',monospace}
 .footer{border-top:1px solid var(--line);max-width:1200px;margin:auto;padding:23px 26px 30px;display:flex;justify-content:space-between;gap:14px;color:#71839f;font:9px 'DM Mono';letter-spacing:.1em}
 .toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);background:#10223a;border:1px solid #43e8ff70;padding:14px 18px;color:#eaf7ff;font-size:12px;opacity:0;pointer-events:none;transition:.25s;z-index:5;box-shadow:0 10px 35px #0009;text-align:center;width:max-content;max-width:calc(100% - 32px)}.toast.show{opacity:1;transform:translate(-50%,0)}
 .reveal{opacity:0;transform:translateY(18px);transition:.7s}.reveal.visible{opacity:1;transform:none}
-@media(max-width:700px){.institution-inner{height:auto;min-height:130px;padding:16px 14px;gap:12px}.official-logo{width:78px;height:78px;flex-basis:78px}.inst-name{font-size:clamp(22px,6vw,32px);white-space:normal}.inst-address{margin-top:8px;font-size:clamp(9px,2.3vw,12px);padding-bottom:7px;border-bottom-width:3px}.hero{padding:66px 18px 48px}.hero:before,.hero:after{display:none}.edition{letter-spacing:.25em}.strides{font-size:clamp(54px,17vw,90px)}.year{letter-spacing:.3em}.hero-desc{font-size:13px}.section{padding:16px 17px 70px}.cards{grid-template-columns:1fr}.card{min-height:300px;padding:23px}.card h3{font-size:34px}.section-head{align-items:start;flex-direction:column}.footer{padding:20px 17px;flex-direction:column}}
+@media(max-width:700px){.institution-inner{height:auto;min-height:130px;padding:16px 14px;gap:12px}.official-logo{width:78px;height:78px;flex-basis:78px}.inst-name{font-size:clamp(22px,6vw,32px);white-space:normal}.inst-address{margin-top:8px;font-size:clamp(9px,2.3vw,12px);padding-bottom:7px;border-bottom-width:3px}.hero{padding:66px 18px 48px}.hero:before,.hero:after{display:none}.edition{letter-spacing:.25em}.strides{font-size:clamp(54px,17vw,90px)}.year{letter-spacing:.3em}.event-poster{width:100%;margin-top:16px}.hero-desc{font-size:13px}.section{padding:16px 17px 70px}.cards{grid-template-columns:1fr}.card{min-height:300px;padding:23px}.card h3{font-size:34px}.section-head{align-items:start;flex-direction:column}.footer{padding:20px 17px;flex-direction:column}}
 </style>
 </head>
 <body>
@@ -60,6 +61,7 @@ a{color:inherit;text-decoration:none}.mono{font-family:'DM Mono',monospace}
     <h1 class="strides"><span>STRIDES</span></h1>
     <div class="year">2K27</div>
     <div class="event-name">E-ARTIFACT</div>
+    <img class="event-poster" src="e-artifact-poster.png" alt="E-ARTIFACT event poster">
     <p class="hero-desc">A celebration of technology, creativity, and innovation. Step into a space where ideas become prototypes, logic becomes action, and imagination takes shape. Discover your challenge, collaborate with brilliant minds, and showcase what you can create.</p>
     <div class="scroll-cue">▼ &nbsp; EXPLORE THE FOUR EVENT DOMAINS &nbsp; ▼</div>
   </section>
